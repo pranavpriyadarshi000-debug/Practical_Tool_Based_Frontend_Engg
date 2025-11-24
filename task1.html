@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Web Development</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            margin: 20px;
+        }
+        
+        header {
+            background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            color: #333; /* Dark gray as requested */
+            text-align: justify;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        
+        .feature {
+            flex-basis: 48%;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature h3 {
+            color: #4b6cb7;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #f1f3f5;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        
+        @media (max-width: 768px)
+            .feature {
+                flex-basis: 100%;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Web Development</h1>
+            <p class="subtitle">HEY,I am  pranav priyadarshi(RANSH)</p>
+        </header>
+        
+        <div class="content">
+            <p>Web development is an exciting field that combines creativity with technical skills. It allows you to build applications that can be accessed by millions of people around the world. From simple websites to complex web applications, the possibilities are endless when you master the art of web development.</p>
+            
+            <div class="highlight">
+                <p>I want to learn web development because it empowers me to bring ideas to life, solve real-world problems, and create digital experiences that can impact people's lives. The ability to build something from scratch and see it working in a browser is incredibly rewarding.</p>
+            </div>
+            
+            <p>Modern web development involves a combination of technologies including HTML for structure, CSS for styling, and JavaScript for interactivity. With these foundational skills, you can create responsive, accessible, and user-friendly websites that work across different devices and platforms.</p>
+            
+            <div class="features">   
+                <div class="feature">
+                    <h3>HTML</h3>
+                    <p>The backbone of any website, HTML provides the structure and content of web pages.</p>
+                </div>
+                <div class="feature">
+                    <h3>CSS</h3>
+                    <p>CSS brings websites to life with beautiful designs, layouts, and visual effects.</p>
+                </div>
+                <div class="feature">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript adds interactivity, dynamic content, and complex functionality to websites.</p>
+                </div>
+                <div class="feature">
+                    <h3>Responsive Design</h3>
+                    <p>Creating websites that work perfectly on all devices from desktops to smartphones.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>HELLO I AM RANSH, I CREATE THIS PROJECT</p> 
+        </footer>
+    </div>
+</body>
+</html>
